@@ -26,7 +26,7 @@ jobs:
           poetry-version: 1.5.1
 
       - name: Install packages
-        working-directory: ./modules/streaming_pipeline
+        working-directory: ./module/streaming_pipeline
         run: make install_only_dev
 
       - name: Run PEP8 linter
